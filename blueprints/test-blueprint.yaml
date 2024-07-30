@@ -1,0 +1,12 @@
+apiVersion: agilelab.it/v1alpha1
+kind: Blueprint
+metadata:
+  name: test-blueprint
+  title: Test Blueprint
+  description: Create a Test Blueprint
+  tags:
+    - test
+spec:
+  lifecycle: experimental
+  owner: group:test
+  domain: domain:finance
