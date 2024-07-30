@@ -6,3 +6,5 @@ metadata:
 spec:
   targets:
     - ./domains/finance.yaml
+    - ./domains/marketing.yaml
+    - ./domains/organization.yaml
