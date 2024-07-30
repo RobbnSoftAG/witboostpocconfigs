@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: marketing
+  description: Bla related to marketing
+  links:
+    - url: http://example.com/domain/marketing/
+      title: Marketing Bla Domain
+spec:
+  owner: 'group:datacataloguser'
+  mesh:
+    name: 'Marketing'
